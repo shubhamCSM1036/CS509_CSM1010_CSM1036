@@ -24,7 +24,8 @@ SRCS = \
 	Assignment_3/src/maxflow.cpp \
 	Assignment_3/driver/graph_driver.cpp \
 	Assignment_4/src/kmeans.cpp \
-	Assignment_4/driver/graph_driver.cpp 
+	Assignment_4/driver/graph_driver.cpp \
+	Assignment_4/src/fastmap.cpp
 
 # Object files
 OBJS = $(SRCS:.cpp=.o)

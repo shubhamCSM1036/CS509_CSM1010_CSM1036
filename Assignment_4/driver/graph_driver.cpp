@@ -1,5 +1,6 @@
 #include <iostream>
 #include "../include/kmeans.h"
+#include "../include/fastmap.h"
 #include "../include/graph_driver.h"
 
 using namespace std;
@@ -20,7 +21,7 @@ void assignment_4_func()
         break;
 
     case 2:
-        // mm_fn();
+        fastmap_fn();
         break;
 
     default:
