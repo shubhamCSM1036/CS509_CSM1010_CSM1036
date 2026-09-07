@@ -3,6 +3,7 @@
 #include "../Assignment_1/include/graph_driver.h"
 #include "../Assignment_2/include/graph_driver.h"
 #include "../Assignment_3/include/graph_driver.h"
+#include "../Assignment_4/include/graph_driver.h"
 
 using namespace std;
 
@@ -16,6 +17,7 @@ int main()
         cout << "1. Assignment 1\n";
         cout << "2. Assignment 2\n";
         cout << "3. Assignment 3\n";
+        cout << "4. Assignment 4\n";
         cout << "0. Exit\n\n";
 
         cout << "Enter your choice: ";
@@ -33,6 +35,10 @@ int main()
 
             case 3:
                 assignment_3_func();
+                break;
+
+            case 4:
+                assignment_4_func();
                 break;
 
             case 0:
